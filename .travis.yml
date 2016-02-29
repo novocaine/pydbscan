@@ -11,8 +11,7 @@ addons:
             - clang-3.7
             - g++-5
             - gcc-5
-            - boost
-            - libboost-numeric-bindings
+            - libboost-all-dev
 
 script:
     - export CXX="clang++-3.7"

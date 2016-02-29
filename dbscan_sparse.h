@@ -1,6 +1,8 @@
 #ifndef __DBSCAN_SPARSE_H__
 #define __DBSCAN_SPARSE_H__
 
+// Use boost bindings for ublas sparse arrays - not sure this is maintained
+// all that well, isn't available in debian for example
 #include <boost/numeric/ublas/vector_sparse.hpp>
 
 #include "dbscan.h"
