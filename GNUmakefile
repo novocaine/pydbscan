@@ -1,3 +1,9 @@
-CPPFLAGS = -O3 -msse -std=c++1y -stdlib=libc++
+CPPFLAGS := -O3 -march=native -stdlib=libc++ -std=c++1y
 
-dbscan: main.o
+OBJS := main.o
+
+dbscan: $(OBJS)
+	$(CXX) $(LDFLAGS) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+clean:
+	rm dbscan $(OBJS)
