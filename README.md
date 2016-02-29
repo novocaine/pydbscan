@@ -28,13 +28,17 @@ For tests
 
 ### For the CLI tool
 
-```make```
+```
+make
+```
 
 ### Python
 
 If you like to test things are working, `python setup.py test` then
 
-```python setup.py install```
+```
+python setup.py install
+```
 
 ## Run
 
