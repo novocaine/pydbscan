@@ -3,3 +3,4 @@ build/
 *.o
 dbscan.egg-info/
 dbscan
+dist/
