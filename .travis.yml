@@ -1,3 +1,7 @@
+language: python
+python:
+    - "2.7"
+
 addons:
     apt:
         sources:
@@ -13,4 +17,3 @@ addons:
 script:
     - export CXX="clang++-3.7"
     - make
-
