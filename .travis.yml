@@ -13,3 +13,4 @@ addons:
 script:
     - export CXX="clang++-3.7"
     - make
+
